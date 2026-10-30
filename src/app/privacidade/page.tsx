@@ -29,7 +29,7 @@ export default function PrivacyPage() {
         <div className="privacy-summary"><ShieldCheck size={17} /><span><strong>Seu consentimento vale para este pedido.</strong><small>Na finalização, autorizamos apenas o uso dos dados necessários para confirmar e atender a compra que você escolheu.</small></span></div>
         <div className="privacy-address"><MapPin size={14} /> Empório Paulista · Junqueirópolis, SP</div>
       </article>
-      <footer className="privacy-footer"><span>© {new Date().getFullYear()} Empório Paulista</span><Link href="/">Voltar ao cardápio <ArrowLeft size={12} /></Link></footer>
+      <footer className="privacy-footer"><span>© {new Date().getFullYear()} Empório Paulista</span><Link href="/">Voltar ao cardápio <ArrowLeft size={12} /></Link><a className="privacy-credit" href="https://wa.me/5518998133524" target="_blank" rel="noreferrer" aria-label="Falar com Murilo Mota no WhatsApp">Desenvolvido por Murilo Mota · 55 (18) 99813-3524</a></footer>
     </main>
   );
 }

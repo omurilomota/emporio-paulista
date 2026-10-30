@@ -447,7 +447,9 @@
 .privacy-summary small { color: #728074; font-size: 10.8px; line-height: 1.5; }
 .privacy-address { display: flex; align-items: center; gap: 5px; margin-top: 23px; color: #959a91; font-size: 10.8px; }
 .privacy-address svg { color: var(--terra); }
-.privacy-footer { max-width: 720px; min-height: 45px; display: flex; align-items: center; justify-content: space-between; gap: 12px; margin: 0 auto; padding: 0 24px; border-top: 1px solid var(--line); color: #969b92; font-size: 10.8px; }
+.privacy-footer { max-width: 720px; min-height: 45px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; margin: 0 auto; padding: 0 24px; border-top: 1px solid var(--line); color: #969b92; font-size: 10.8px; }
+.privacy-credit { flex-basis: 100%; padding: 0 0 12px; color: #b0aaa0; font-size: 10px; text-align: center; }
+.privacy-credit:hover { color: var(--terra); }
 .privacy-footer a { display: inline-flex; align-items: center; gap: 5px; color: var(--terra); font-weight: 750; }
 .privacy-footer a svg { transform: rotate(180deg); }
 .admin-logout { min-height: 32px; display: inline-flex; align-items: center; gap: 5px; border: 1px solid #e6e9e0; border-radius: 3px; padding: 0 9px; color: #7c857a; background: #fffefa; cursor: pointer; font-size: 10.8px; }
