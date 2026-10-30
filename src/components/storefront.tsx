@@ -939,6 +939,16 @@ export default function Storefront({ initialProducts, initialMenus }: Storefront
             Restaurante Exemplo LTDA · <span className="nowrap">CNPJ 00.000.000/0001-00</span>
           </span>
           <span>© {new Date().getFullYear()} Empório Paulista</span>
+          <span className="footer-credit">
+            <a
+              href="https://wa.me/5518998133524"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Falar com Murilo Mota no WhatsApp"
+            >
+              Desenvolvido por Murilo Mota · 55 (18) 99813-3524
+            </a>
+          </span>
         </div>
       </footer>
 
